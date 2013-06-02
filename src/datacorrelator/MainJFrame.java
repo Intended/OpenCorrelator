@@ -425,8 +425,6 @@ public class MainJFrame extends javax.swing.JFrame {
         */ 
       private static twoArrays reordered;
       private static twoArrays Reorder(float[] dataA, float[] dataB){
-        if(reordered.dataA == null)
-            System.out.print("niggers");
         reordered.dataA.clear();
         reordered.dataB.clear();
         int var = 0;

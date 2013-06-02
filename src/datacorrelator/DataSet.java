@@ -69,8 +69,6 @@ public class DataSet {
         Scanner scanner = new Scanner(new File(current_file_path));
         sets_remaining_in_file--;
         column_index++;
-        
-        System.out.print("   New:");
 
         ArrayList<String> input = new ArrayList<>();
         while(scanner.hasNext())
@@ -83,7 +81,6 @@ public class DataSet {
         float varb;
         for(int i = 1; i < input.size(); i++){
             String[] temp = input.get(i).split(",");
-            System.out.print(temp.length);
            
             if(temp.length > column_index){
                 if(temp[0] != "" && temp[column_index] != ""){
