@@ -21,4 +21,5 @@ steps:
     wget https://storage.googleapis.com/vorteil-dl/vorteil.license
     vorteil license register vorteil.license
     vorteil license info
+    az help
   displayName: 'Run a multi-line script'
