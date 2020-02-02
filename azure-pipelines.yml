@@ -9,11 +9,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
+    wget https://downloads.vorteil.io/vcli/3.1.1/linux/vorteil-3.1.1-installer.run
+    chmod +x ./vorteil-3.1.1-installer.run
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  displayName: 'Download and Install Vorteil'
