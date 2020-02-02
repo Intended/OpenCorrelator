@@ -16,5 +16,5 @@ steps:
 - script: |
     wget https://downloads.vorteil.io/vcli/3.1.1/linux/vorteil-3.1.1-installer.run
     chmod +x ./vorteil-3.1.1-installer.run
-    ./vorteil-3.1.1-installer.run --mode unattended
+    ./vorteil-3.1.1-installer.run --mode unattended --sudouser
   displayName: 'Run a multi-line script'
