@@ -22,4 +22,5 @@ steps:
     vorteil license register vorteil.license
     vorteil license info
     az help
+    vorteil help
   displayName: 'Run a multi-line script'
